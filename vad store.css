@@ -1,0 +1,33 @@
+.header {
+    border-radius: 5px;
+    width: 100%;
+    background-color: yellow;   
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+body {
+    background-color: rgb(94, 102, 75);
+}
+.nav a, li{
+    color:white;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav a:hover{
+    color: blue;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav{
+    float: right;
+   position: relative;
+   bottom: 60px;
+   right: 30px;
+}
